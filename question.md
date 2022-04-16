@@ -1,3 +1,8 @@
 Replicare la struttura della seguente navbar, senza aggiungere css, cerca di usare più tag semantici possibili.
 
 Usa il type corretto per l'input di ricerca.
+
+
+Partendo dalla navbar realizzata nell'esercizio 10 di HTML, aggiungi il css, il bottone Search in hover, diventa verde con il testo bianco. Gestisci anche il responsive, da 768px in giù nascondi tutti gli elementi presenti tranne "Navbar" e al loro posto, nella parte destra della navbar, deve apparire un'hamburgher menù (senza funzionalità).
+
+L'hamburgher menù inizialmente ha display: none; come regola css.

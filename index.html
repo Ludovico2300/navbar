@@ -116,19 +116,18 @@
             }
 
             @media only screen and (max-width: 768px) {
-            .nav-home, .nav-link, .nav-dropdown, .nav-disabled, .nav-searchbar, .search-btn{
-                    display: none;
+                .nav-home, .nav-link, .nav-dropdown, .nav-disabled, .nav-searchbar, .search-btn{
+                        display: none;
+                    }
+                .nav-hamb{
+                    display: flex;
+                    flex-direction: column;
+
                 }
-            .nav-hamb{
-                display: flex;
-                flex-direction: column;
-
-            }
-            .nav-hamb span{
-                display: block;
-            }
-
-
+                .nav-hamb span{
+                    display: block;
+                }
+            }   
 
         </style>
     </head>
@@ -144,7 +143,7 @@
                 <a class="nav-link" href="">Link</a>
                 
                 
-                <!--qui di seguito creare dropdown--!>
+                <!-- qui di seguito creare dropdown -->
 
                 <div class="nav-dropdown">
                     <button class="nav-dropdown-btn">Dropdown</button>
@@ -161,7 +160,7 @@
                 <input class="nav-searchbar" type="text" placeholder="Search" name="search">
                 <button class="search-btn" type="submit">Search</button>
                 
-                <!--hamburger menu--!>
+                <!--hamburger menu-->
 
                 <div class="nav-hamb">
                     <span class="nav-hamb line01"></span>
